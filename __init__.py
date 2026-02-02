@@ -18,7 +18,7 @@ from queries import QueryOperations
 from cli import CLI
 
 __version__ = "1.0.0"
-__author__ = "Paulina Peralta"
+__author__ = "Paulina Peralta y Katherine Soto"
 
 __all__ = [
     "DatabaseManager",
