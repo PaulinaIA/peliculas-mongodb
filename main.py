@@ -137,7 +137,7 @@ def main():
     """Funcion principal del programa."""
     print("\n" + "=" * 60)
     print("SISTEMA DE GESTION DE PELICULAS CON MONGODB")
-    print("Autor: Paulina Peralta | MD003 - La Salle")
+    print("Autor: Paulina Peralta y Katherine Soto | MD003 - La Salle")
     print("=" * 60)
     
     # Inicializar gestor de base de datos
