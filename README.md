@@ -1,6 +1,6 @@
 # Sistema de Gestion de Peliculas con MongoDB
 
-**Autor:** Paulina Peralta  
+**Autor:** Paulina Peralta y Katherine Soto
 **Asignatura:** MD003 - Estructuras de datos y su almacenamiento  
 **Universidad:** La Salle - Ramon Llull
 
