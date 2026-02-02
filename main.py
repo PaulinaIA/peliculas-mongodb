@@ -167,8 +167,8 @@ def main():
         imprimir_resumen()
         
         # Preguntar si ejecutar CLI
-        respuesta = input("\nDesea ejecutar el menu interactivo? (s/n): ").strip().lower()
-        if respuesta == 's':
+        respuesta = input("\nDesea ejecutar el menu interactivo? (y/n): ").strip().lower()
+        if respuesta == 'y':
             cli = CLI(crud, queries)
             cli.ejecutar()
     

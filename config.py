@@ -5,7 +5,7 @@ Configuracion del sistema de gestion de peliculas.
 import logging
 
 # Configuracion de MongoDB
-MONGO_URI = "mongodb://mongodb_service:27017/"
+MONGO_URI = "mongodb://localhost:27017/"
 DB_NAME = "gestion_peliculas"
 COLLECTION_NAME = "peliculas"
 
