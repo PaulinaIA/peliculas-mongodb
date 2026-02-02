@@ -31,26 +31,18 @@ pip install -r requirements.txt
 Editar `config.py` para cambiar la URI de MongoDB:
 
 ```python
-MONGO_URI = "mongodb://localhost:27017/"  # Cambiar segun tu configuracion
+MONGO_URI = "mongodb://localhost:27017/"
 ```
 
 ## Ejecucion
 
-### Opcion 1: Interfaz Web (Streamlit)
-
-```bash
-streamlit run app.py
-```
-
-Abre automaticamente en http://localhost:8501
-
-### Opcion 2: Linea de Comandos
+### Linea de Comandos
 
 ```bash
 python main.py
 ```
 
-### Opcion 3: Como modulo
+### Como modulo
 
 ```python
 from gestion_peliculas import DatabaseManager, CRUDOperations, QueryOperations
@@ -62,7 +54,6 @@ db.inicializar_datos()
 crud = CRUDOperations(db.collection)
 queries = QueryOperations(db.collection)
 
-# Usar las operaciones
 peliculas = crud.buscar_por_director("Nolan")
 top5 = queries.top_peliculas(5)
 ```
